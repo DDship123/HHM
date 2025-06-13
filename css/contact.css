@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.m_percentage {
+  margin: 0 6%;
+}
+.p_percentage {
+  padding: 0 6%;
+}
+.active_tag {
+  text-decoration: underline !important;
+}
+.ff_Open_Sans {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #f9f9f8;
+  position: relative;
+}
+.contact {
+  padding: 20px;
+  border: 4px solid #3d5a23;
+  border-radius: 20px;
+}
+.contact_title {
+  text-align: center;
+  font-size: 64px;
+  color: #3d5a23;
+  margin-bottom: 40px;
+}
+.contact_input_group label,
+.contact_input_group input {
+  display: block;
+  width: 100%;
+}
+.contact_input_group input {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact_input_group input:placeholder-shown {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact_input_group label {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.contact_input_group textarea {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  font-size: 20px;
+}
+.contact_input_group textarea:placeholder-shown {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact form > input {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #3d5a23;
+}
+.mediaContact {
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+}
+.mediaContact_title {
+  font-size: 52px;
+  color: #3d5a23;
+}
+.mediaContact_hashTag {
+  font-size: 28px;
+  color: #0064d1;
+  margin: 5px 0;
+}
+.mediaContact_list {
+  margin-top: 15px;
+}
+.mediaContact_list i {
+  margin: 0 10px;
+  font-size: 24px;
+}

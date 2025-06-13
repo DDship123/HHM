@@ -1,0 +1,73 @@
+@media screen and (max-width: 1820px) {
+  .productIntroduction_content_text h3 {
+    font-size: 32px;
+  }
+  .productIntroduction_content_text p {
+    font-size: 20px;
+  }
+  .productIntroduction_content_text ul li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1451px) {
+  .productIntroduction_content {
+    display: block;
+  }
+  .productIntroduction_content_img {
+    width: 100%;
+  }
+  .productIntroduction_content_img img {
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .productIntroduction_content_text {
+    width: 100%;
+  }
+  .productIntroduction_content_text h3 {
+    font-size: 40px;
+  }
+  .productIntroduction_content_text p {
+    font-size: 28px;
+  }
+  .productIntroduction_content_text ul li {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1351px) {
+  .aboutUS_content {
+    flex-direction: column-reverse;
+  }
+  .aboutUS_content_img {
+    width: 100%;
+  }
+  .aboutUS_content_img img {
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .aboutUS_content_text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 701px) {
+  .ourPolicy_list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  section > h1 {
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  section > h1 {
+    font-size: 40px !important;
+  }
+  .ourPolicy_list_policy h2 {
+    font-size: 30px;
+  }
+  .productIntroduction_content_text h3 {
+    font-size: 30px;
+  }
+}

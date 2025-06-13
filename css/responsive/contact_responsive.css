@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+  .mediaContact_title {
+    font-size: 40px;
+  }
+  .mediaContact_hashTag {
+    font-size: 20px;
+  }
+  .contact_title {
+    font-size: 50px;
+  }
+  .contact_input_group label {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .contact_title {
+    font-size: 36px;
+  }
+  .mediaContact_title {
+    font-size: 30px;
+  }
+  .mediaContact_hashTag {
+    font-size: 16px;
+  }
+  .mediaContact_list i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact_title {
+    font-size: 28px;
+  }
+  .contact_input_group label {
+    font-size: 20px;
+  }
+}

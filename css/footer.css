@@ -1,0 +1,30 @@
+footer {
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+  margin-top: 100px;
+  border-top: 3px solid #3d5a23;
+  border-bottom: 3px solid #3d5a23;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+footer .socialMedia {
+  width: 10%;
+  color: #3d5a23;
+}
+.copyRight {
+  text-align: center;
+  padding: 30px;
+  background-color: #e2e2f2;
+  color: #3d5a23;
+  font-size: 20px;
+}
+.socialMedia li:nth-child(1) {
+  font-size: 30px;
+}

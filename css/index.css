@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ff_Open_Sans {
+  font-family: "Open Sans", sans-serif;
+}
+.p_percentage {
+  padding: 0 6%;
+}
+.active_tag {
+  text-decoration: underline !important;
+}
+.m_percentage {
+  margin: 0 6%;
+}
+body {
+  background-color: #f9f9f8;
+}
+
+.aboutUs_title {
+  font-size: 64px;
+  color: #3d5a23;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.aboutUS_content {
+  display: flex;
+  gap: 2%;
+  /* align-items: stretch; */
+}
+.aboutUS_content_text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutUS_content_text p {
+  font-size: 30px;
+  word-spacing: 4px;
+  margin-bottom: 20px;
+}
+.aboutUS_content_text p::first-letter {
+  margin-left: 15px;
+}
+.aboutUS_content_text p:nth-child(3) {
+  font-weight: bold;
+  font-size: 36px;
+}
+.aboutUS_content_text ul {
+  transform: translateX(3%);
+}
+.aboutUS_content_text ul li {
+  font-size: 30px;
+  margin-bottom: 10px;
+  word-spacing: 4px;
+}
+.aboutUS_content_img {
+  width: 55%;
+}
+.aboutUS_content_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.productIntroduction {
+  margin-top: 100px;
+}
+.productIntroduction_title {
+  font-size: 64px;
+  color: #3d5a23;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.productIntroduction_content {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+}
+.productIntroduction_content_img {
+  width: 55%;
+}
+.productIntroduction_content_img img {
+  width: 100%;
+}
+.productIntroduction_content_text {
+  width: 45%;
+}
+.productIntroduction_content_text p {
+  font-size: 24px;
+  word-spacing: 4px;
+  margin-bottom: 20px;
+}
+.productIntroduction_content_text p::first-letter {
+  margin-left: 15px;
+}
+.productIntroduction_content_text h3 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: #3d5a23;
+}
+.productIntroduction_content_text ul {
+  transform: translateX(3%);
+}
+.productIntroduction_content_text ul li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  word-spacing: 4px;
+}
+
+.ourPolicy {
+  margin-top: 100px;
+}
+.ourPolicy_title {
+  font-size: 64px;
+  color: #3d5a23;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.ourPolicy_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 30px;
+}
+.ourPolicy_list_policy h2 {
+  font-size: 36px;
+  color: #3d5a23;
+  margin-bottom: 10px;
+}
+.ourPolicy_list_policy ul {
+  transform: translateX(3%);
+}
+.ourPolicy_list_policy ul li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.ourPolicy_list_policy ul li span {
+  font-weight: bold;
+}
