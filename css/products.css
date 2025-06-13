@@ -156,6 +156,12 @@ body {
   flex-direction: column;
   margin-top: 60px;
 }
+.Certificate_title {
+  text-align: center;
+  font-size: 64px;
+  color: #3d5a23;
+  margin-bottom: 40px;
+}
 .Certificate img {
   width: 80%;
   margin: 20px auto;

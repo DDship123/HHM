@@ -47,6 +47,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .Certificate_title {
+    font-size: 32px;
+  }
   .thermos_content_image > i {
     font-size: 40px;
   }
